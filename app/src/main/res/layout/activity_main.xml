@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/Input"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Enter_Button"
+        android:layout_alignEnd="@+id/Enter_Button"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-21dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="-29dp"
+        android:autofillHints=""
+        android:hint="@string/Password_login"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Enter_Button"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="312dp"
+        android:background="#FFFFFF"
+        android:text="@string/Enter_login"
+        android:textColor="#009688"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/Forget_Button"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/SignUp_Button"
+        android:layout_alignStart="@+id/SignUp_Button"
+        android:layout_alignEnd="@+id/SignUp_Button"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="-1dp"
+        android:background="#FFFFFF"
+        android:text="@string/Forgot_Login"
+        android:textColor="#009688"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/SignUp_Button"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/Enter_Button"
+        android:layout_alignStart="@+id/Enter_Button"
+        android:layout_alignEnd="@+id/Enter_Button"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="2dp"
+        android:background="#FFFFFF"
+        android:text="@string/SignUp_Login"
+        android:textColor="#009688"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+</RelativeLayout>

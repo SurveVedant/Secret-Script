@@ -1,0 +1,20 @@
+<resources>
+    <string name="Enter_login">ENTER</string>
+    <string name="SignUp_Login">SIGN UP</string>
+    <string name="Forgot_Login">FORGOT</string>
+    <string name="Password_login">PASSWORD</string>
+    <string name="Favorite_song">WRITE YOUR FATHER\'S MIDDLE NAME</string>
+    <string name="change_password">WRITE YOUR PASSWORD</string>
+    <string name="signup_text">This will be used in case you forget your password.</string>
+    <string name="SignUp_Enter">ENTER</string>
+    <string name="LOAD">LOAD</string>
+    <string name="ENTER">SAVE</string>
+    <string name="SAVE">SAVE</string>
+    <string name="WRITE_HERE">WRITE HERE</string>
+    <string name="TODO">TODO</string>
+    <string name="app_name">Secret Script</string>
+    <string name="saved">SAVED</string>
+    <string name="no">NO</string>
+    <string name="yes">YES</string>
+
+</resources>

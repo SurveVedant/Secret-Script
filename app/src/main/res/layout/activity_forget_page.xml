@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".Forget_Page">
+
+    <EditText
+        android:id="@+id/middlename_input"
+        android:layout_width="313dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="260dp"
+        android:autofillHints=""
+        android:hint="@string/Favorite_song"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signup_page_button"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="360dp"
+        android:background="#FFFFFF"
+        android:text="@string/SignUp_Enter"
+        android:textColor="#3F51B5"
+        app:layout_constraintEnd_toEndOf="@+id/middlename_input"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/middlename_input"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+</android.support.constraint.ConstraintLayout>
