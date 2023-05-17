@@ -21,6 +21,7 @@ Keep your thoughts organized and secure with Secret Script.
 • Pristine User Interface
 
 ----------------------------------------HOW TO USE THE APP---------------------------------------
+
 • A User as soon as they open the app they need to sign up.
 • In sign up process you need to create a password and fill a verification question. 
 • The verification question is used to determine the user when the user forgets their password.
