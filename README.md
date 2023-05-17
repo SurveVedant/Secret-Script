@@ -1,6 +1,7 @@
 # Secret-Script
 Secret Script is a Password Protected Note Keeping App
------------------------------------------WHAT IS THIS APP------------------------------------
+
+-----------------------------WHAT IS THIS APP------------------------------------
 
 Introducing Secret Script - the ultimate note-taking app for keeping your thoughts and ideas safe and secure. 
 With our password-protected system, you can rest assured that your notes are for your eyes only. 
